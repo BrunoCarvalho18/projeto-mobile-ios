@@ -1,0 +1,19 @@
+{
+  "name": "c2-qa-ios-mobile",
+  "version": "1.0.0",
+  "description": "Projeto automacao iOS Compra e aluga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "e2e",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.4.1",
+    "webdriverio": "^8.11.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
