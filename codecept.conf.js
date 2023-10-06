@@ -12,15 +12,15 @@ setCommonPlugins();
 /** @type {CodeceptJS.MainConfig} */
 
 const path = require('path');
-const resolvedPath = path.resolve('app/c2_super_app_release_112.app');
+const resolvedPath = path.resolve('c2_super_app_release_112.app');
 console.log("path resolver: " + resolvedPath);
 
 exports.config = {
-  tests: './e2e/*_test.js',
+  tests: './e2e/**_test.js',
   output: './output',
   helpers: {
     MyHelper: {
-      require: './elements_helper.js'
+      require: './elements_helpeer.js'
     },
     Appium: {
       app: resolvedPath,
