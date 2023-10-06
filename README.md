@@ -1,4 +1,4 @@
-## 🚀 CAA- Projeto de automação de testes regressivos iOS
+## 🚀 Projeto de automação de testes regressivos iOS
 
 ## 🛠️  Tecnologias
  
